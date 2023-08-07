@@ -1,0 +1,1937 @@
+[
+  {
+    "id": 0,
+    "brand": "Apple",
+    "name": "iPhone 6",
+    "price": 599.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Apple",
+    "tags": [
+      "Apple",
+      "iPhone",
+      "iOS"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20iPhone%206%20White",
+          "https://placehold.it/400x400?text=Apple%20iPhone%206%20White"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "brand": "Apple",
+    "name": "iPhone 6s",
+    "price": 699.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Apple",
+    "tags": [
+      "Apple",
+      "iPhone",
+      "iOS"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20iPhone%206s%20White",
+          "https://placehold.it/400x400?text=Apple%20iPhone%206s%20White"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "brand": "Apple",
+    "name": "iPhone 7",
+    "price": 799.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Apple",
+    "tags": [
+      "Apple",
+      "iPhone",
+      "iOS"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20iPhone%207%20White",
+          "https://placehold.it/400x400?text=Apple%20iPhone%207%20White"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "brand": "Apple",
+    "name": "iPhone 7 Plus",
+    "price": 899.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Apple",
+    "tags": [
+      "Apple",
+      "iPhone",
+      "iOS"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20iPhone%207%20Plus%20White",
+          "https://placehold.it/400x400?text=Apple%20iPhone%207%20Plus%20White"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "brand": "Samsung",
+    "name": "Galaxy Z Flip",
+    "price": 999.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Samsung",
+    "tags": [
+      "Samsung",
+      "Galaxy",
+      "Android",
+      "Foldable"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Z%20Flip%20Black",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Z%20Flip%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Purple",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Z%20Flip%20Purple",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Z%20Flip%20Purple"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Z%20Flip%20Gold",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Z%20Flip%20Gold"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "brand": "Samsung",
+    "name": "Galaxy S20",
+    "price": 1099.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Samsung",
+    "tags": [
+      "Samsung",
+      "Galaxy",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S20%20Black",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S20%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S20%20Blue",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S20%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Pink",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S20%20Pink",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S20%20Pink"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "brand": "Samsung",
+    "name": "Galaxy S20 Ultra",
+    "price": 1199.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Samsung",
+    "tags": [
+      "Samsung",
+      "Galaxy",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S20%20Ultra%20Black",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S20%20Ultra%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S20%20Ultra%20Blue",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S20%20Ultra%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Pink",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S20%20Ultra%20Pink",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S20%20Ultra%20Pink"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "brand": "Samsung",
+    "name": "Galaxy Note 10",
+    "price": 1299.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Samsung",
+    "tags": [
+      "Samsung",
+      "Galaxy",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Black",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Blue",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Pink",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Pink",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Pink"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "brand": "Samsung",
+    "name": "Galaxy Note 10 Plus",
+    "price": 1399.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Phones",
+    "subcategory": "Samsung",
+    "tags": [
+      "Samsung",
+      "Galaxy",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Plus%20Black",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Plus%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Plus%20Blue",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Plus%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Pink",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Plus%20Pink",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Plus%20Pink"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "brand": "Samsung",
+    "name": "Galaxy Note 10 Plus 5G",
+    "price": 1499.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Phones",
+    "subcategory": "Samsung",
+    "tags": [
+      "Samsung",
+      "Galaxy",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Plus%205G%20Black",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Plus%205G%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Plus%205G%20Blue",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Plus%205G%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Pink",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Plus%205G%20Pink",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20Note%2010%20Plus%205G%20Pink"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "brand": "OnePlus",
+    "name": "8",
+    "price": 1599.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "OnePlus",
+    "tags": [
+      "OnePlus",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%208%20Black",
+          "https://placehold.it/400x400?text=OnePlus%208%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%208%20Blue",
+          "https://placehold.it/400x400?text=OnePlus%208%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Green",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%208%20Green",
+          "https://placehold.it/400x400?text=OnePlus%208%20Green"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "brand": "OnePlus",
+    "name": "8 Pro",
+    "price": 1699.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Phones",
+    "subcategory": "OnePlus",
+    "tags": [
+      "OnePlus",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%208%20Pro%20Black",
+          "https://placehold.it/400x400?text=OnePlus%208%20Pro%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%208%20Pro%20Blue",
+          "https://placehold.it/400x400?text=OnePlus%208%20Pro%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Green",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%208%20Pro%20Green",
+          "https://placehold.it/400x400?text=OnePlus%208%20Pro%20Green"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "brand": "OnePlus",
+    "name": "7T",
+    "price": 1799.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Phones",
+    "subcategory": "OnePlus",
+    "tags": [
+      "OnePlus",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%207T%20Black",
+          "https://placehold.it/400x400?text=OnePlus%207T%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%207T%20Blue",
+          "https://placehold.it/400x400?text=OnePlus%207T%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Green",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%207T%20Green",
+          "https://placehold.it/400x400?text=OnePlus%207T%20Green"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "brand": "OnePlus",
+    "name": "7T Pro",
+    "price": 1899.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Phones",
+    "subcategory": "OnePlus",
+    "tags": [
+      "OnePlus",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%207T%20Pro%20Black",
+          "https://placehold.it/400x400?text=OnePlus%207T%20Pro%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%207T%20Pro%20Blue",
+          "https://placehold.it/400x400?text=OnePlus%207T%20Pro%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Green",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%207T%20Pro%20Green",
+          "https://placehold.it/400x400?text=OnePlus%207T%20Pro%20Green"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "brand": "OnePlus",
+    "name": "7T Pro McLaren",
+    "price": 1999.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Phones",
+    "subcategory": "OnePlus",
+    "tags": [
+      "OnePlus",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%207T%20Pro%20McLaren%20Black",
+          "https://placehold.it/400x400?text=OnePlus%207T%20Pro%20McLaren%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%207T%20Pro%20McLaren%20Blue",
+          "https://placehold.it/400x400?text=OnePlus%207T%20Pro%20McLaren%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Green",
+        "images": [
+          "https://placehold.it/400x400?text=OnePlus%207T%20Pro%20McLaren%20Green",
+          "https://placehold.it/400x400?text=OnePlus%207T%20Pro%20McLaren%20Green"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "brand": "Huawei",
+    "name": "P40",
+    "price": 2099.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Huawei",
+    "tags": [
+      "Huawei",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20P40%20Black",
+          "https://placehold.it/400x400?text=Huawei%20P40%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20P40%20Blue",
+          "https://placehold.it/400x400?text=Huawei%20P40%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Green",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20P40%20Green",
+          "https://placehold.it/400x400?text=Huawei%20P40%20Green"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "brand": "Huawei",
+    "name": "P40 Pro",
+    "price": 2199.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Phones",
+    "subcategory": "Huawei",
+    "tags": [
+      "Huawei",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20P40%20Pro%20Black",
+          "https://placehold.it/400x400?text=Huawei%20P40%20Pro%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20P40%20Pro%20Blue",
+          "https://placehold.it/400x400?text=Huawei%20P40%20Pro%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Green",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20P40%20Pro%20Green",
+          "https://placehold.it/400x400?text=Huawei%20P40%20Pro%20Green"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "brand": "Huawei",
+    "name": "P40 Pro Plus",
+    "price": 2299.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Phones",
+    "subcategory": "Huawei",
+    "tags": [
+      "Huawei",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20P40%20Pro%20Plus%20Black",
+          "https://placehold.it/400x400?text=Huawei%20P40%20Pro%20Plus%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20P40%20Pro%20Plus%20Blue",
+          "https://placehold.it/400x400?text=Huawei%20P40%20Pro%20Plus%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Green",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20P40%20Pro%20Plus%20Green",
+          "https://placehold.it/400x400?text=Huawei%20P40%20Pro%20Plus%20Green"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "brand": "Huawei",
+    "name": "Mate 30",
+    "price": 2399.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Huawei",
+    "tags": [
+      "Huawei",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Black",
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Blue",
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Green",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Green",
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Green"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "brand": "Huawei",
+    "name": "Mate 30 Pro",
+    "price": 2499.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Huawei",
+    "tags": [
+      "Huawei",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Pro%20Black",
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Pro%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Pro%20Blue",
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Pro%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Green",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Pro%20Green",
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Pro%20Green"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "brand": "Huawei",
+    "name": "Mate 30 Pro 5G",
+    "price": 2599.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Huawei",
+    "tags": [
+      "Huawei",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Pro%205G%20Black",
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Pro%205G%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Pro%205G%20Blue",
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Pro%205G%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Green",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Pro%205G%20Green",
+          "https://placehold.it/400x400?text=Huawei%20Mate%2030%20Pro%205G%20Green"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "brand": "Google",
+    "name": "Pixel 4",
+    "price": 2699.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Google",
+    "tags": [
+      "Google",
+      "Android",
+      "Pixel"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%204%20White",
+          "https://placehold.it/400x400?text=Google%20Pixel%204%20White"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%204%20Black",
+          "https://placehold.it/400x400?text=Google%20Pixel%204%20Black"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Orange",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%204%20Orange",
+          "https://placehold.it/400x400?text=Google%20Pixel%204%20Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "brand": "Google",
+    "name": "Pixel 4 XL",
+    "price": 2799.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Phones",
+    "subcategory": "Google",
+    "tags": [
+      "Google",
+      "Android",
+      "Pixel"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%204%20XL%20White",
+          "https://placehold.it/400x400?text=Google%20Pixel%204%20XL%20White"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%204%20XL%20Black",
+          "https://placehold.it/400x400?text=Google%20Pixel%204%20XL%20Black"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Orange",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%204%20XL%20Orange",
+          "https://placehold.it/400x400?text=Google%20Pixel%204%20XL%20Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "brand": "Google",
+    "name": "Pixel 3",
+    "price": 2899.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Google",
+    "tags": [
+      "Google",
+      "Android",
+      "Pixel"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%203%20White",
+          "https://placehold.it/400x400?text=Google%20Pixel%203%20White"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%203%20Black",
+          "https://placehold.it/400x400?text=Google%20Pixel%203%20Black"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Orange",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%203%20Orange",
+          "https://placehold.it/400x400?text=Google%20Pixel%203%20Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "brand": "Google",
+    "name": "Pixel 3 XL",
+    "price": 2999.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Google",
+    "tags": [
+      "Google",
+      "Android",
+      "Pixel"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%203%20XL%20White",
+          "https://placehold.it/400x400?text=Google%20Pixel%203%20XL%20White"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%203%20XL%20Black",
+          "https://placehold.it/400x400?text=Google%20Pixel%203%20XL%20Black"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Orange",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%203%20XL%20Orange",
+          "https://placehold.it/400x400?text=Google%20Pixel%203%20XL%20Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "brand": "Google",
+    "name": "Pixel 3a",
+    "price": 3099.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Google",
+    "tags": [
+      "Google",
+      "Android",
+      "Pixel"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%203a%20White",
+          "https://placehold.it/400x400?text=Google%20Pixel%203a%20White"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%203a%20Black",
+          "https://placehold.it/400x400?text=Google%20Pixel%203a%20Black"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Orange",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%203a%20Orange",
+          "https://placehold.it/400x400?text=Google%20Pixel%203a%20Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "brand": "Google",
+    "name": "Pixel Fold",
+    "price": 1899.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Google",
+    "tags": [
+      "Google",
+      "Android",
+      "Pixel"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%20Fold%20White",
+          "https://placehold.it/400x400?text=Google%20Pixel%20Fold%20White"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%20Fold%20Black",
+          "https://placehold.it/400x400?text=Google%20Pixel%20Fold%20Black"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Orange",
+        "images": [
+          "https://placehold.it/400x400?text=Google%20Pixel%20Fold%20Orange",
+          "https://placehold.it/400x400?text=Google%20Pixel%20Fold%20Orange"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "brand": "Samsung",
+    "name": "Galaxy S23 Ultra",
+    "price": 999.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Samsung",
+    "tags": [
+      "Samsung",
+      "Galaxy",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Ultra%20Black",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Ultra%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Ultra%20Blue",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Ultra%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Pink",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Ultra%20Pink",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Ultra%20Pink"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "brand": "Samsung",
+    "name": "Galaxy S23",
+    "price": 1099.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Phones",
+    "subcategory": "Samsung",
+    "tags": [
+      "Samsung",
+      "Galaxy",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Black",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Blue",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Pink",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Pink",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Pink"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "brand": "Samsung",
+    "name": "Galaxy S23 Plus",
+    "price": 1199.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Phones",
+    "subcategory": "Samsung",
+    "tags": [
+      "Samsung",
+      "Galaxy",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Plus%20Black",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Plus%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Plus%20Blue",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Plus%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Pink",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Plus%20Pink",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Plus%20Pink"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "brand": "Samsung",
+    "name": "Galaxy S23 Plus 5G",
+    "price": 1299.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Phones",
+    "subcategory": "Samsung",
+    "tags": [
+      "Samsung",
+      "Galaxy",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Plus%205G%20Black",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Plus%205G%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Blue",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Plus%205G%20Blue",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Plus%205G%20Blue"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Pink",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Plus%205G%20Pink",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23%20Plus%205G%20Pink"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "brand": "Samsung",
+    "name": "Galaxy S23e",
+    "price": 1399.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Samsung",
+    "tags": [
+      "Samsung",
+      "Galaxy",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23e%20White",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23e%20White"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23e%20Black",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23e%20Black"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Pink",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23e%20Pink",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23e%20Pink"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "brand": "Samsung",
+    "name": "Galaxy S23e Plus",
+    "price": 1499.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Phones",
+    "subcategory": "Samsung",
+    "tags": [
+      "Samsung",
+      "Galaxy",
+      "Android"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23e%20Plus%20White",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23e%20Plus%20White"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23e%20Plus%20Black",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23e%20Plus%20Black"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Pink",
+        "images": [
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23e%20Plus%20Pink",
+          "https://placehold.it/400x400?text=Samsung%20Galaxy%20S23e%20Plus%20Pink"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "brand": "Apple",
+    "name": "Watch Series 8",
+    "price": 449.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Watches",
+    "subcategory": "Apple",
+    "tags": [
+      "Apple",
+      "Watch",
+      "iOS"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20White",
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20White"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Black",
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Black"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Red",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Red",
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Red"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "brand": "Apple",
+    "name": "Watch Series 8 Nike",
+    "price": 499.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Watches",
+    "subcategory": "Apple",
+    "tags": [
+      "Apple",
+      "Watch",
+      "iOS"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Nike%20White",
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Nike%20White"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Nike%20Black",
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Nike%20Black"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Red",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Nike%20Red",
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Nike%20Red"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "brand": "Apple",
+    "name": "Watch Series 8 Hermes",
+    "price": 549.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Watches",
+    "subcategory": "Apple",
+    "tags": [
+      "Apple",
+      "Watch",
+      "iOS"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Hermes%20White",
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Hermes%20White"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Hermes%20Black",
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Hermes%20Black"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Red",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Hermes%20Red",
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Hermes%20Red"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "brand": "Apple",
+    "name": "Watch Series 8 Edition",
+    "price": 599.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Watches",
+    "subcategory": "Apple",
+    "tags": [
+      "Apple",
+      "Watch",
+      "iOS"
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "White",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Edition%20White",
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Edition%20White"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Edition%20Black",
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Edition%20Black"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Red",
+        "images": [
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Edition%20Red",
+          "https://placehold.it/400x400?text=Apple%20Watch%20Series%208%20Edition%20Red"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "brand": "Fitbit",
+    "name": "Luxe",
+    "price": 129.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Watches",
+    "subcategory": "Fitbit",
+    "tags": [ 
+      "Fitbit", 
+      "Watch",  
+      "Android" 
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Fitbit%20Luxe%20Black",
+          "https://placehold.it/400x400?text=Fitbit%20Luxe%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Fitbit%20Luxe%20Gold",
+          "https://placehold.it/400x400?text=Fitbit%20Luxe%20Gold"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Silver",
+        "images": [
+          "https://placehold.it/400x400?text=Fitbit%20Luxe%20Silver",
+          "https://placehold.it/400x400?text=Fitbit%20Luxe%20Silver"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "brand": "Fitbit",
+    "name": "Sense",
+    "price": 149.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Watches",
+    "subcategory": "Fitbit",
+    "tags": [ 
+      "Fitbit", 
+      "Watch",  
+      "Android" 
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Fitbit%20Sense%20Black",
+          "https://placehold.it/400x400?text=Fitbit%20Sense%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Fitbit%20Sense%20Gold",
+          "https://placehold.it/400x400?text=Fitbit%20Sense%20Gold"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Silver",
+        "images": [
+          "https://placehold.it/400x400?text=Fitbit%20Sense%20Silver",
+          "https://placehold.it/400x400?text=Fitbit%20Sense%20Silver"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "brand": "Fitbit",
+    "name": "Versa 3",
+    "price": 169.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Watches",
+    "subcategory": "Fitbit",
+    "tags": [ 
+      "Fitbit", 
+      "Watch",  
+      "Android" 
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Fitbit%20Versa%203%20Black",
+          "https://placehold.it/400x400?text=Fitbit%20Versa%203%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Fitbit%20Versa%203%20Gold",
+          "https://placehold.it/400x400?text=Fitbit%20Versa%203%20Gold"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Silver",
+        "images": [
+          "https://placehold.it/400x400?text=Fitbit%20Versa%203%20Silver",
+          "https://placehold.it/400x400?text=Fitbit%20Versa%203%20Silver"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "brand": "Fitbit",
+    "name": "Versa 3 Special Edition",
+    "price": 189.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Watches",
+    "subcategory": "Fitbit",
+    "tags": [ 
+      "Fitbit", 
+      "Watch",  
+      "Android" 
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Fitbit%20Versa%203%20Special%20Edition%20Black",
+          "https://placehold.it/400x400?text=Fitbit%20Versa%203%20Special%20Edition%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Fitbit%20Versa%203%20Special%20Edition%20Gold",
+          "https://placehold.it/400x400?text=Fitbit%20Versa%203%20Special%20Edition%20Gold"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Silver",
+        "images": [
+          "https://placehold.it/400x400?text=Fitbit%20Versa%203%20Special%20Edition%20Silver",
+          "https://placehold.it/400x400?text=Fitbit%20Versa%203%20Special%20Edition%20Silver"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "brand": "Huawei",
+    "name": "Watch GT 3",
+    "price": 199.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Watches",
+    "subcategory": "Huawei",
+    "tags": [ 
+      "Huawei", 
+      "Watch",  
+      "Android" 
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Black",
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Gold",
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Gold"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Silver",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Silver",
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Silver"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "brand": "Huawei",
+    "name": "Watch GT 3 Pro",
+    "price": 249.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Watches",
+    "subcategory": "Huawei",
+    "tags": [ 
+      "Huawei", 
+      "Watch",  
+      "Android" 
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Pro%20Black",
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Pro%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Pro%20Gold",
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Pro%20Gold"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Silver",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Pro%20Silver",
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Pro%20Silver"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "brand": "Huawei",
+    "name": "Watch GT 3 Classic",
+    "price": 299.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Watches",
+    "subcategory": "Huawei",
+    "tags": [ 
+      "Huawei", 
+      "Watch",  
+      "Android" 
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Classic%20Black",
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Classic%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Classic%20Gold",
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Classic%20Gold"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Silver",
+        "images": [
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Classic%20Silver",
+          "https://placehold.it/400x400?text=Huawei%20Watch%20GT%203%20Classic%20Silver"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "brand": "Garmin",
+    "name": "Venu SQ",
+    "price": 154.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Watches",
+    "subcategory": "Garmin",
+    "tags": [ 
+      "Garmin", 
+      "Watch",  
+      "Android" 
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Garmin%20Venu%20SQ%20Black",
+          "https://placehold.it/400x400?text=Garmin%20Venu%20SQ%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Garmin%20Venu%20SQ%20Gold",
+          "https://placehold.it/400x400?text=Garmin%20Venu%20SQ%20Gold"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Silver",
+        "images": [
+          "https://placehold.it/400x400?text=Garmin%20Venu%20SQ%20Silver",
+          "https://placehold.it/400x400?text=Garmin%20Venu%20SQ%20Silver"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "brand": "Garmin",
+    "name": "Venu SQ Music",
+    "price": 174.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Watches",
+    "subcategory": "Garmin",
+    "tags": [ 
+      "Garmin", 
+      "Watch",  
+      "Android" 
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Garmin%20Venu%20SQ%20Music%20Black",
+          "https://placehold.it/400x400?text=Garmin%20Venu%20SQ%20Music%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Garmin%20Venu%20SQ%20Music%20Gold",
+          "https://placehold.it/400x400?text=Garmin%20Venu%20SQ%20Music%20Gold"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Silver",
+        "images": [
+          "https://placehold.it/400x400?text=Garmin%20Venu%20SQ%20Music%20Silver",
+          "https://placehold.it/400x400?text=Garmin%20Venu%20SQ%20Music%20Silver"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "brand": "Xiaomi",
+    "name": "Redmi Watch 2",
+    "price": 69.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Watches",
+    "subcategory": "Xiaomi",
+    "tags": [ 
+      "Xiaomi", 
+      "Watch",  
+      "Android" 
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Xiaomi%20Redmi%20Watch%202%20Black",
+          "https://placehold.it/400x400?text=Xiaomi%20Redmi%20Watch%202%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Xiaomi%20Redmi%20Watch%202%20Gold",
+          "https://placehold.it/400x400?text=Xiaomi%20Redmi%20Watch%202%20Gold"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Silver",
+        "images": [
+          "https://placehold.it/400x400?text=Xiaomi%20Redmi%20Watch%202%20Silver",
+          "https://placehold.it/400x400?text=Xiaomi%20Redmi%20Watch%202%20Silver"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "brand": "Xiaomi",
+    "name": "Redmi Watch 2 Pro",
+    "price": 89.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": 0.1,
+    "category": "Watches",
+    "subcategory": "Xiaomi",
+    "tags": [ 
+      "Xiaomi", 
+      "Watch",  
+      "Android" 
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Xiaomi%20Redmi%20Watch%202%20Pro%20Black",
+          "https://placehold.it/400x400?text=Xiaomi%20Redmi%20Watch%202%20Pro%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Xiaomi%20Redmi%20Watch%202%20Pro%20Gold",
+          "https://placehold.it/400x400?text=Xiaomi%20Redmi%20Watch%202%20Pro%20Gold"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Silver",
+        "images": [
+          "https://placehold.it/400x400?text=Xiaomi%20Redmi%20Watch%202%20Pro%20Silver",
+          "https://placehold.it/400x400?text=Xiaomi%20Redmi%20Watch%202%20Pro%20Silver"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "brand": "Xiaomi",
+    "name": "Mi Watch Lite",
+    "price": 99.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.",
+    "discount": null,
+    "category": "Watches",
+    "subcategory": "Xiaomi",
+    "tags": [ 
+      "Xiaomi", 
+      "Watch",  
+      "Android" 
+    ],
+    "variants": [
+      {
+        "id": 1,
+        "color": "Black",
+        "images": [
+          "https://placehold.it/400x400?text=Xiaomi%20Mi%20Watch%20Lite%20Black",
+          "https://placehold.it/400x400?text=Xiaomi%20Mi%20Watch%20Lite%20Black"
+        ]
+      },
+      {
+        "id": 2,
+        "color": "Gold",
+        "images": [
+          "https://placehold.it/400x400?text=Xiaomi%20Mi%20Watch%20Lite%20Gold",
+          "https://placehold.it/400x400?text=Xiaomi%20Mi%20Watch%20Lite%20Gold"
+        ]
+      },
+      {
+        "id": 3,
+        "color": "Silver",
+        "images": [
+          "https://placehold.it/400x400?text=Xiaomi%20Mi%20Watch%20Lite%20Silver",
+          "https://placehold.it/400x400?text=Xiaomi%20Mi%20Watch%20Lite%20Silver"
+        ]
+      }
+    ]
+  }
+]
