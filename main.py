@@ -2,6 +2,7 @@ import uvicorn
 from datetime import datetime, timedelta
 from typing import Annotated, Union
 
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi import Depends, FastAPI, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from jose import JWTError, jwt
@@ -13,11 +14,32 @@ import json
 SECRET_KEY = "ec0a1b60904f020f7195dacae3ce10b1d06c92c05b4c3cce9b10825ca11598d7"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
+ORIGINS = [
+    "http://localhost:3000",
+]
+
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+
+app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=ORIGINS,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+def verify_password(plain_password, hashed_password):
+    return pwd_context.verify(plain_password, hashed_password)
+
+def get_password_hash(password):
+    return pwd_context.hash(password)
 
 class Token(BaseModel):
     access_token: str
     token_type: str
-
 
 class TokenData(BaseModel):
     email: str
@@ -72,26 +94,42 @@ class Rating(BaseModel):
     rating: float
     count: int
     
+class ProductId(BaseModel):
+    id: int
+    variant_id: Union[int, None]
+
+class CartItem(BaseModel):
+    product_id: int
+    variant_id: Union[int, None]
+    quantity: int
+
+class Cart(BaseModel):
+    user_id: int
+    products: list[CartItem]
+
 def productDEncoder(obj):
     if 'brand' in obj:
         return Product(**obj)
     return obj
-USERS: list[UserInDB] = []
+
+USERS: list[UserInDB] = [{
+    "id": 0,
+    "first_name": "John",
+    "last_name": "Doe",
+    "company_name": None,
+    "address": "123 Main St",
+    "city": "New York",
+    "county": "New York",
+    "state": "NY",
+    "zip": "10001",
+    "phone1": None,
+    "phone2": None,
+    "email": "testemail@emails.com",
+    "hashed_password": get_password_hash("password")
+}]
 PRODUCTS: list[Product] = json.load(open('products.json', 'r', encoding='utf-8'), object_hook=productDEncoder)
 REVIEWS: list[Review] = [] #json.load(open('reviews.json', 'r', encoding='utf-8'), object_hook=lambda d: Review(**d))
-CARTS = {}
-
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
-
-app = FastAPI()
-
-def verify_password(plain_password, hashed_password):
-    return pwd_context.verify(plain_password, hashed_password)
-
-def get_password_hash(password):
-    return pwd_context.hash(password)
+CARTS: list[Cart] = []
 
 def get_user(username: str):
     for user in USERS:
@@ -160,89 +198,114 @@ async def login_for_access_token(
     )
     return {"access_token": access_token, "token_type": "bearer"}
 
-@app.get("/users/me/", response_model=User)
+@app.get("/users/me", response_model=User)
 async def get_my_user(
     current_user: Annotated[User, Depends(get_current_active_user)]
 ):
     return current_user
 
-# create new user with password and log the user in
-@app.post("/users/", response_model=User)
-async def create_user(
-    user: User,
-    password: str
-):
-    if get_user(user.email):
-        raise HTTPException(status_code=400, detail="Email already registered")
-    user.id = len(USERS)
-    new_user = UserInDB(**user, hashed_password=get_password_hash(password))
-    USERS.append(new_user)
-    return user
-    
-
-# change password for current user
-@app.put("/users/me/password", response_model=User)
-async def change_password(
-    current_user: Annotated[User, Depends(get_current_active_user)],
-    password: str
-):
-    current_user.hashed_password = get_password_hash(password)
-    return current_user
-
 # get cart for current user
-@app.get("/cart", response_model=list[int])
+@app.get("/cart", response_model=list[CartItem])
 async def get_cart(
     current_user: Annotated[User, Depends(get_current_active_user)]
 ):
-    return CARTS[current_user.id]
+    for cart in CARTS:
+        if cart.user_id == current_user.id:
+            return cart.products
+    return []
+    
 
 # add product to cart by id
-@app.post("/cart", response_model=list[int])
+@app.put("/cart", response_model=list[CartItem])
 async def add_to_cart(
     current_user: Annotated[User, Depends(get_current_active_user)],
-    product_id: int
+    product_id: ProductId,
+
 ):
     # check if cart exists
-    if current_user.id not in CARTS:
-        CARTS[current_user.id] = []
-    CARTS[current_user.id].append(product_id)
-    return CARTS[current_user.id]
+    for cart in CARTS:
+        if cart.user_id == current_user.id:
+            break
+    else:
+        CARTS.append(Cart(user_id=current_user.id, products=[]))
+        cart = CARTS[-1]
+    # check if product exists
+    if product_id.id not in [product.id for product in PRODUCTS]:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Product not found",
+        )
+    if product_id.variant_id not in [variant.id for variant in PRODUCTS[product_id.id].variants]:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Variant not found",
+        )
+    # check if product is already in cart
+    for product in cart.products:
+        if product.product_id == product_id.id and product.variant_id == product_id.variant_id:
+            product.quantity += 1
+            return cart.products
+    # add product to cart
+    cart.products.append(CartItem(product_id=product_id.id, quantity=1, variant_id=product_id.variant_id))
+    return cart.products
 
 # remove product from cart by id
-@app.delete("/cart", response_model=list[int])
+@app.delete("/cart", response_model=list[CartItem])
 async def remove_from_cart(
     current_user: Annotated[User, Depends(get_current_active_user)],
-    product_id: int
+    product_id: ProductId
 ):
     # check if cart exists
-    if current_user.id not in CARTS:
-        CARTS[current_user.id] = []
+    for cart in CARTS:
+        if cart.user_id == current_user.id:
+            break
     else:
-        CARTS[current_user.id].remove(product_id)
-    return CARTS[current_user.id]
+        CARTS.append(Cart(user_id=current_user.id, products=[]))
+        cart = CARTS[-1]
+    # check if product exists
+    if product_id.id not in [product.id for product in PRODUCTS]:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Product not found",
+        )
+    if product_id.variant_id not in [variant.id for variant in PRODUCTS[product_id.id].variants]:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Variant not found",
+        )
+    # check if product is in cart
+    for product in cart.products:
+        if product.product_id == product_id.id and product.variant_id == product_id.variant_id:
+            cart.products.remove(product)
+            return cart.products
+    # product not in cart
+    raise HTTPException(
+        status_code=status.HTTP_404_NOT_FOUND,
+        detail="Product not found in cart",
+    )
 
 # get all products with offset
 @app.get("/products", response_model=Products)
 async def get_products(
-    offset: int = 0
+    page: int = 0
 ):
-    return Products(products=PRODUCTS[offset:offset+10], prev=offset-10 if offset > 0 else None, next=offset+10 if offset+10 < len(PRODUCTS) else None)
+    return Products(products=PRODUCTS[page*10:page*10+10], prev=page-1 if page > 0 else None, next=page+1 if page+1 < len(PRODUCTS) else None)
 
 # search products with query
 @app.get("/products/search", response_model=Products)
 async def search_products(
-    query: str,
-    offset: int = 0
+    q: str,
+    page: int = 0
 ):
     products = []
     for product in PRODUCTS:
-        if query.lower() in product.name.lower() or query.lower() in product.brand.lower() or query.lower() in product.category.lower() or query.lower() in product.subcategory.lower():
+        if q.lower() in product.name.lower() or q.lower() in product.brand.lower() or q.lower() in product.category.lower() or q.lower() in product.subcategory.lower():
             products.append(product)
         for tag in product.tags:
-            if query.lower() in tag.lower():
+            if q.lower() in tag.lower():
                 products.append(product)
                 break
-    return Products(products=products[offset:offset+10], prev=offset-10 if offset > 0 else None, next=offset+10 if offset+10 < len(products) else None)
+    return Products(products=products[page*10:page*10+10], prev=page-1 if page > 0 else None, next=page+1 if page+1 < len(products) else None)
 
 # get product by id
 @app.get("/products/{product_id}", response_model=Product)
@@ -258,25 +321,25 @@ async def get_product(
 @app.get("/products/category/{category}", response_model=Products)
 async def get_products_by_category(
     category: str,
-    offset: int = 0
+    page: int = 0
 ):
     products = []
     for product in PRODUCTS:
         if product.category.lower() == category.lower():
             products.append(product)
-    return Products(products=products[offset:offset+10], prev=offset-10 if offset > 0 else None, next=offset+10 if offset+10 < len(products) else None)
+    return Products(products=products[page*10:page*10+10], prev=page-1 if page > 0 else None, next=page+1 if page+1 < len(products) else None)
 
 # get products by brand
 @app.get("/products/brand/{brand}", response_model=Products)
 async def get_products_by_brand(
     brand: str,
-    offset: int = 0
+    page: int = 0
 ):
     products = []
     for product in PRODUCTS:
         if product.brand.lower() == brand.lower():
             products.append(product)
-    return Products(products=products[offset:offset+10], prev=offset-10 if offset > 0 else None, next=offset+10 if offset+10 < len(products) else None)
+    return Products(products=products[page*10:page*10+10], prev=page-1 if page > 0 else None, next=page+1 if page+1 < len(products) else None)
 
 # get brands
 @app.get("/brands", response_model=list[str])
