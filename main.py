@@ -302,7 +302,7 @@ async def search_products(
         if q.lower() in product.name.lower() or q.lower() in product.brand.lower() or q.lower() in product.category.lower() or q.lower() in product.subcategory.lower():
             products.append(product)
         for tag in product.tags:
-            if q.lower() in tag.lower():
+            if q.lower() in tag.lower() and product not in products:
                 products.append(product)
                 break
     return Products(products=products[page*10:page*10+10], prev=page-1 if page > 0 else None, next=page+1 if page+1 < len(products) else None)
